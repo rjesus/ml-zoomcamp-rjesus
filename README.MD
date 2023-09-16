@@ -4,9 +4,14 @@ Personal files and data for the [ML Zoomcamp course][1]
 
 # Setup
 ```
-conda create -n ml-zoomcamp 
+conda create -n ml-zoomcamp python=3.9
 conda activate ml-zoomcamp
 conda install numpy pandas scikit-learn seaborn jupyter
-jupyter
+```
+
+# Start Jupyter 
+```
+cd notebooks
+jupyter notebook
 ```
 
