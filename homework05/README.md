@@ -1,3 +1,9 @@
+# Introduction
+
+This directory has the code necessary to complete [homework 05][1] of the Datatalks' Machine Learning Zoomcamp
+
+[1]: https://github.com/DataTalksClub/machine-learning-zoomcamp/blob/master/cohorts/2023/05-deployment/homework.md
+
 # Setup
 ```bash
 pipenv install
