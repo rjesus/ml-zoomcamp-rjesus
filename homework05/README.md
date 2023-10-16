@@ -10,3 +10,8 @@ Edit the input features on `predict.py` then run the file with python
 ```bash
 python predict.py
 ```
+
+# Running predictions as a development web server locally 
+```bash
+flask --app server_predict run --reload --debug --debugger
+```
