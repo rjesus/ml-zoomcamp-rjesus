@@ -21,3 +21,15 @@ The script `client_predict.py` is a python client compatible with the `server_pr
 ```bash
 python client_predict.py
 ```
+
+# Setup Docker
+```bash
+docker build -t credit-prediction .
+```
+
+# Running Docker
+```bash
+docker run -it -p 9696:9696 credit-prediction
+```
+
+On `client_predict.py`, set the `url="http://127.0.0.1:9696/predict"` to use this server 
