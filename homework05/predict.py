@@ -13,7 +13,7 @@ def predict(dv, model, features):
 
 def main(features):
     dv = load("data/dv.bin")
-    model = load("data/model1.bin")
+    model = load("data/model.bin")
     y_pred = predict(dv, model, features)
     print("Credit probability is", y_pred[0])
 
